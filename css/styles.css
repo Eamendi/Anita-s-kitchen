@@ -68,7 +68,7 @@
    padding-left: 30px;
    padding-bottom: 0;
    font-family: sans-serif;
-   padding-right: 200px;
+   padding-right: 100px;
 
 
 
@@ -83,14 +83,14 @@
 #image2{
   background-size: cover;
   padding-bottom: : 0;
-  margin-bottom: 0;
+  margin-bottom: 100px;
   position: absolute;
-  border: 1px solid #F2F2F2 ;
+  border: 1px solid #F2F2F2;
   border-width: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-sizing: border-box;
   margin-left: 100px;
-  margin-top: 200px;
+  margin-top: 150px;
 
 }
 #alig-f{
@@ -101,6 +101,8 @@
    text-align: right;
    box-sizing: border-box;
    padding-left: 100px;
+   margin-bottom: 100px;
+
 }
 
 #sidebar{
