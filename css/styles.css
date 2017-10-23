@@ -105,6 +105,21 @@
 
 }
 
+
+
+#rice {
+  background: grey;
+  font-family: serif;
+}
+#drinks {
+  background: grey;
+  font-family: serif;
+}
+#chicken {
+  background: grey;
+  font-family: serif;
+}
+
 #sidebar{
 position: fixed;
 width: 200px;
