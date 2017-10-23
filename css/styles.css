@@ -28,7 +28,7 @@
   color: #ffffff;
   background: url(../assets/foodtop/breakfast.jpg);
   display: flex;
-  align-items: center;
+  text-align: center;
 }
 
 .lunch{
@@ -37,7 +37,7 @@
   color: #ffffff;
   background: url(../assets/foodtop/lunch.jpg);
   display: flex;
-  align-items: center;
+  text-align: center;
 }
 .dinner{
   height: 150px;
@@ -45,7 +45,7 @@
   width: 326px;
   background: url(../assets/foodtop/dinner.jpg);
   display: flex;
-  align-items: center;
+  text-align: center;
 }
 .image{
    background-size: cover;
@@ -102,6 +102,21 @@
    box-sizing: border-box;
    padding-left: 100px;
    margin-bottom: 100px;
+
+}
+i {
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 
 }
 
