@@ -6,8 +6,7 @@
 
 ## Description
 
-Is a small page that briefly describe about me, such as my educational background, work experience and how many projects that i did so far.
-
+Is webpage that is dedicated for Anita's kitchen,it shows services she  provides to her customers,a little information about her customers and how they can Access her services via email.
 ## Setup/Installation Requirements
 
 * open browser
