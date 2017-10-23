@@ -112,46 +112,9 @@
   text-align: center;
   height: 450px;
 }
-
-.drinks {
-  margin-top: 80px;
-  margin-left: 40px;
+.redish{
+  color: red;
 }
-h5 {
-  margin-left: 500px;
-}
-.delic {
-  margin-left: 350px;
-}
-
-h2 {
-  width: 200px;
-  padding: 10px;
-}
-h5 {
-  margin-left: 500px;
-}
-
-.btn-anita {
-  color: #fff;
-  background-color: #EB5315;
-  border-color: #EB5315;
-  text-decoration: none;
-  border-radius: 0px;
-  width: 150px;
-}
-
-#image-holder {
-  background: white;
-  margin-top: 5%;
-  margin-left: 10%;
-  width: 80%;
-}
-
-#image-overlay {
-  background: rgba(218, 220, 222, 0.82);
-}
-
 .grey-bg {
   background: #c1bebe;
   border-right: 1px solid black;
@@ -165,6 +128,14 @@ h5 {
 .center {
   text-align: center;
 }
+
+#image-holder {
+  background: white;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+}
+
 #sidebar{
 position: fixed;
 width: 200px;
