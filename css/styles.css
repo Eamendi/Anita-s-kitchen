@@ -1,35 +1,96 @@
-body{
-  background: #F15A29;
-}
-#header{
-  float: center;
-  background-image:url(../assets/backgrounds/landing.jpg);
-   color:white;
+.header{
+  background-image: url(../assets/backgrounds/landing.jpg);
   text-align: center;
-   font-family: sans-serif;
-   font-size: 15px;
-   padding: 40px;
-
+  color: white;
+  font-family: sans-serif;
+  padding: 20px 0px;
+  background-repeat: no-repeat;
 }
 
+.happyhour{
+  height: 75px;
+  width: 330px;
+  background: #e0e0d1;
+  display: flex;
+  align-items: center;
+}
+.partytime{
+  height: 75px;
+  width: 330px;
+  background: #F15A29;
+  display: flex;
+  align-items: center;
+}
 
-
-#breakfast{
-  background-image: url(../assets/foodtop/breakfast.jpg);
-  padding: 20px;
-  width: 300px;
+.breakfast{
   height: 150px;
+  width: 350px;
+  color: #ffffff;
+  background: url(../assets/foodtop/breakfast.jpg);
+  display: flex;
+  align-items: center;
+}
 
+.lunch{
+  height: 150px;
+  width: 330px;
+  color: #ffffff;
+  background: url(../assets/foodtop/lunch.jpg);
+  display: flex;
+  align-items: center;
 }
 .dinner{
-  background-image: url(../assets/foodtop/dinner.jpg);
-  padding: 20px;
-  width: 300px;
   height: 150px;
+  color: #ffffff;
+  width: 326px;
+  background: url(../assets/foodtop/dinner.jpg);
+  display: flex;
+  align-items: center;
 }
-.lunch{
-  background-image: url(../assets/foodtop/lunch.jpg);
-  padding: 20px;
-  width: 300px;
-  height: 150px;
+#image {
+  padding: 25px 50px 75px;
+  margin: 60px;
+  border:thick red;
+}
+.middle-content{
+  background: url(../assets/backgrounds/foodsBg.jpg);
+  border-width: 120px;
+  text-align: center;
+  height: 100%;
+}
+
+
+#sidebar{
+position: fixed;
+width: 200px;
+height: 30%;
+left: -200px;
+transition: all 500ms linear;
+}
+#sidebar.active {
+left: 0px;
+
+}
+
+
+}
+#sidebar ul li {
+color: white;
+list-style: none;
+padding: 15px 10px;
+border-bottom:1px white;
+}
+#sidebar .toggle-btn{
+position: absolute;
+left: 230px;
+top: 20px;
+}
+
+#sidebar .toggle-btn span {
+display: block;
+width: 30px;
+height: 5px;
+background: white;
+margin: 6px 0px;
+
 }
