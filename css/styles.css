@@ -47,18 +47,6 @@
   display: flex;
   align-items: center;
 }
-#image {
-  padding: 25px 50px 75px;
-  margin: 60px;
-  border:thick red;
-}
-.middle-content{
-  background: url(../assets/backgrounds/foodsBg.jpg);
-  border-width: 120px;
-  text-align: center;
-  height: 100%;
-}
-
 
 #sidebar{
 position: fixed;
