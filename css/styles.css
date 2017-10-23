@@ -47,6 +47,61 @@
   display: flex;
   align-items: center;
 }
+.image{
+   background-size: cover;
+   padding-bottom: : 0;
+   margin-bottom: 0;
+   position: absolute;
+   border: 1px solid #F2F2F2 ;
+   border-width: 15px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   box-sizing: border-box;
+   margin-left: 100px;
+   margin-top: 70px;
+}
+
+
+#alig-h{
+   width: 50%;
+   float: left;
+   padding-top: 70px;
+   padding-left: 30px;
+   padding-bottom: 0;
+   font-family: sans-serif;
+   padding-right: 200px;
+
+
+
+}
+.button{
+  border-radius: 5px;
+  padding: 13px 20px;
+  border-color: #F15A29;
+  color: #F15A29;
+  box-sizing: border-box;
+}
+#image2{
+  background-size: cover;
+  padding-bottom: : 0;
+  margin-bottom: 0;
+  position: absolute;
+  border: 1px solid #F2F2F2 ;
+  border-width: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-top: 200px;
+
+}
+#alig-f{
+   margin-top: 40px;
+   position: relative;
+   width: 100%;
+   padding-top: 200px;
+   text-align: right;
+   box-sizing: border-box;
+   padding-left: 100px;
+}
 
 #sidebar{
 position: fixed;
