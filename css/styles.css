@@ -126,6 +126,7 @@ i {
   margin-top: 100px;
   text-align: center;
   height: 450px;
+  position: relative;
 }
 .redish{
   color: red;
@@ -150,7 +151,49 @@ i {
   margin-left: 10%;
   width: 80%;
 }
+ .h3{
+   font-weight: bold;
+   color: red;
+ }
+ #customers{
+  text-align: center;
+  border-radius: 150px;
+  border-width: thin;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+ }
+ .happy-customers {
+	 border: 1px solid gray;
+	 
+ }
 
+ #customers  i .left .right{
+
+   border: solid red;
+   border-width: 3px 3px 3px 0;
+   display: inline-block;
+   padding: 4px;
+
+ }
+
+
+
+
+
+#border-center{
+
+}
+#subscribe {
+background-image: url(../assets/backgrounds/subscribe.jpg);
+margin-top: 50px;
+height: 300px;
+color: white;
+align-content: center;
+}
+{
+  color: red;
+}
 #sidebar{
 position: fixed;
 width: 200px;
