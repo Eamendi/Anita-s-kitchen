@@ -155,20 +155,40 @@ i {
    font-weight: bold;
    color: red;
  }
- #customers{
-  text-align: center;
-  border-radius: 150px;
-  border-width: thin;
-  margin-top: 50px;
-  margin-bottom: 50px;
- 
- }
- .happy-customers {
-	 border: 1px solid gray;
-	 
- }
 
- #customers  i .left .right{
+
+#border-center{
+  border-right: 1px solid #888888;
+  margin-top: 2%;
+
+}
+.customers{
+
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+#h{
+  color: red;
+  text-decoration: none;
+}
+.subscribe{
+  text-align: center;
+  color: white;
+  background-image: url(../assets/backgrounds/subscribe.jpg);
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+}
+
+
+
+ .customers  i .left .right{
 
    border: solid red;
    border-width: 3px 3px 3px 0;
@@ -177,13 +197,6 @@ i {
 
  }
 
-
-
-
-
-#border-center{
-
-}
 #subscribe {
 background-image: url(../assets/backgrounds/subscribe.jpg);
 margin-top: 50px;
