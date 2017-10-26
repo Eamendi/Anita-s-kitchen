@@ -27,8 +27,9 @@
   width: 350px;
   color: #ffffff;
   background: url(../assets/foodtop/breakfast.jpg);
-  display: flex;
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .lunch{
@@ -36,7 +37,8 @@
   width: 330px;
   color: #ffffff;
   background: url(../assets/foodtop/lunch.jpg);
-  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
 }
 .dinner{
@@ -44,7 +46,8 @@
   color: #ffffff;
   width: 326px;
   background: url(../assets/foodtop/dinner.jpg);
-  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
 }
 .image{
@@ -170,10 +173,12 @@ i {
   border-radius: 5px;
   margin-top: 70px;
   margin-bottom: 80px;
-  margin-right: 100px;
-  margin-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 
 
 }
