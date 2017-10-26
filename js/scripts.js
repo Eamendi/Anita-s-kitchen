@@ -1,4 +1,8 @@
-function togglesidebar() {
-  document.getElementById('sidebar').classlist.toggle('active');
+(function($) {
 
-}
+    $ ('span.nav-btn') .click(function() {
+
+        $ ('ul.nav') .toggle();
+
+    });
+})

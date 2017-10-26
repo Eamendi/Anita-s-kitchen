@@ -219,37 +219,24 @@ i {
   float: bottom;
 
 }
-}
-#sidebar{
-position: fixed;
-width: 200px;
-height: 30%;
-left: -200px;
-transition: all 500ms linear;
-}
-#sidebar.active {
-left: 0px;
-
-
-
-}
-#sidebar ul li {
-color: white;
-list-style: none;
-padding: 15px 10px;
-border-bottom:1px white;
-}
-#sidebar .toggle-btn{
-position: absolute;
-left: 230px;
-top: 20px;
+.nav {
+ text-align: left;
+ display: none;
+ text-align: center;
 }
 
-#sidebar .toggle-btn span{
-display: block;
-width: 30px;
-height: 5px;
-background: white;
-margin: 6px 0px;
+.nav li {
+ background-color: #F15A29 ;
+ list-style: none;
+ text-decoration: none;
+ font-size: 50px;
+ color: black;
 
+}
+
+.nav-btn {
+ display: block;
+ font-size: 40px;
+ cursor: pointer;
+ text-align: left;
 }
